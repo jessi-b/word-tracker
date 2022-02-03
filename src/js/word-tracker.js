@@ -6,7 +6,7 @@
 // method called getTeaser to return the first sentence of the entry. If the sentence is over 8 words, only display those first 8 words.
 export default class Entry {
 
-  constructor() {
-    
+  constructor(body) {
+    this.body = body
   }
 }
