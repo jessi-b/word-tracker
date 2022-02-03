@@ -9,4 +9,8 @@ export default class Entry {
   constructor(body) {
     this.body = body
   }
+
+  countWords(text) {
+
+  }
 }
