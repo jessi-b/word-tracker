@@ -15,7 +15,7 @@ export default class Entry {
   let wordArray = this.body.split(" ");
   wordArray.forEach(function(word) {
     word = word.trim();
-    if (!Number(word) && word.length != 0) {
+    if (word !== "") {
       wordCount++;
     }
   });
@@ -45,5 +45,7 @@ export default class Entry {
   });
   return consonantCount;
   }
-}
 
+  getTeaser() {
+  }
+};

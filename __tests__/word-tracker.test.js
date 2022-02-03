@@ -1,3 +1,4 @@
+import { TestScheduler } from 'jest';
 import Entry from '.././src/js/word-tracker.js';
 
 describe('Entry', () => {
@@ -18,6 +19,9 @@ describe('Entry', () => {
     expect(testEntry.vowelCount()).toEqual(45);
   });
   test('should return consonant count', () => {
-    expect(testEntry.consonantCount()).toEqual(58);
+    expect(testEntry.consonantCount()).toEqual(57);
+  });
+  test('should return 8word teaser', () => {
+    expect(testEntry.getTeaser()).toEqual("Lorem ipsum dolor sit amet, consectetur adipiscing elit");
   });
 });
