@@ -33,8 +33,17 @@ export default class Entry {
   });
   return vowelCount;
   };
-  
-  consonantCount() {
 
+  consonantCount() {
+  let consonantCount = 0;
+  let consonantArray = this.body.split("");
+  consonantArray.forEach(function(letter) {
+    letter = letter.toLowerCase();
+    if (letter !== " " && letter !== 'a' && letter !== 'e' && letter !== 'i' && letter != 'o' && letter !== 'u') {
+      consonantCount++;
+    }
+  });
+  return consonantCount;
   }
 }
+

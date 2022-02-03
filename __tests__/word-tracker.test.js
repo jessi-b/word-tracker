@@ -18,6 +18,6 @@ describe('Entry', () => {
     expect(testEntry.vowelCount()).toEqual(45);
   });
   test('should return consonant count', () => {
-    expect(testEntry.consonantCount()).toEqual(78);
+    expect(testEntry.consonantCount()).toEqual(58);
   });
 });
