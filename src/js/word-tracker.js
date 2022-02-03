@@ -23,6 +23,14 @@ export default class Entry {
   };
 
   vowelCount() {
-
-    };
+  let vowelCount = 0;
+  let vowelArray = this.body.split("");
+  vowelArray.forEach(function(letter) {
+    letter = letter.toUpperCase()
+    if (letter === 'A' || letter === 'E' || letter === 'I' || letter === 'O' || letter === 'U') {
+      vowelCount++;
+    }
+  });
+  return vowelCount;
+  };
 }
