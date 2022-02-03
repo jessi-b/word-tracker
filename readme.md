@@ -2,7 +2,7 @@
 
 #### By _**Jessica Baker**_ 
 
-#### _Lesson/ProjectName_
+#### _Journal - Epicodus - Intermediate JavaScript - Test-Driven Development and Environments with JavaScript_
 
 ## Technologies Used
 
@@ -18,7 +18,7 @@
 
 ## Description
 
-DESCRIBE
+This is a journaling website where a user can write entries including a title and body. Site will return the number of words, vowels and consonants in each entry and return a teaser with the first eight words in the first sentence of the entry. 
 
 ## Setup/Installation Requirements
 
@@ -26,7 +26,7 @@ DESCRIBE
 * Cone this repository to your desktop (or other desired location)
 * Navigate to the top level of the directory called _DIRECTORY_
 * Open the index.html file in your browser
-* Or copy & paste this link in your brower: _PUBLISHEDLINK_  OR  _This is not yet published._
+* _This is not yet published._
 
 ## Known Bugs
 
