@@ -14,4 +14,7 @@ describe('Entry', () => {
   test('should return word count', () => {
     expect(testEntry.wordCount()).toEqual(19);
   });
+  test('should return vowel count', () => {
+    expect(testEntry.vowelCount()).toEqual(45);
+  });
 });

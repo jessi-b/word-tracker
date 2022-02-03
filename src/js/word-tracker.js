@@ -21,4 +21,8 @@ export default class Entry {
   });
   return wordCount;
   };
+
+  vowelCount() {
+
+    };
 }
