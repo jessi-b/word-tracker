@@ -17,4 +17,7 @@ describe('Entry', () => {
   test('should return vowel count', () => {
     expect(testEntry.vowelCount()).toEqual(45);
   });
+  test('should return consonant count', () => {
+    expect(testEntry.consonantCount()).toEqual(78);
+  });
 });

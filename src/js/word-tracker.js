@@ -33,4 +33,8 @@ export default class Entry {
   });
   return vowelCount;
   };
+  
+  consonantCount() {
+
+  }
 }
