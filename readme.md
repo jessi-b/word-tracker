@@ -18,7 +18,7 @@
 
 ## Description
 
-This is a journaling website where a user can write entries including a title and body. Site will return the number of words, vowels and consonants in each entry and return a teaser with the first eight words in the first sentence of the entry. 
+This is a journaling website where a user can write entries including a title and body. Site will return the number of words, vowels and consonants in each entry and display a teaser with the first sentence up to 8 words.
 
 ## Setup/Installation Requirements
 
