@@ -1,9 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Title</title>
+  <title>Journal</title>
 </head>
 <body>
-
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Journal</h1>
+      <p class="lead"></p>
+      <hr class="my-4">
+      <p></p>
+    </div>
+    <form id="user-entry">
+      <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" class="form-control" id="title">
+      </div>
+      <div class="form-group">
+        <label for="body">Body:</label>
+        <textarea class="form-control" id="body" rows="3"></textarea>
+      </div>
+      <button type="button" class="btn btn-dark">check word count</button>
+    </form>
+    <div class="row">
+      <div class="col-sm" id="count-display">
+        <h6>word count: <span id="word-count-disp"><!--word count--></span></h6>
+      </div>
+      <div class="col-sm" id="count-display">
+        <h6>vowel count: <span id="vowel-count-disp"><!--vowel count--></span></h6>
+      </div>
+      <div class="col-sm" id="count-display">
+        <h6>consonant count: <span id="cons-count-disp"><!--consonant count--></span></h6>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

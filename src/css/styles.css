@@ -1,0 +1,7 @@
+body {
+  background: thistle;
+}
+
+#count-display {
+  display: none;
+}
